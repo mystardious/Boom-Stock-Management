@@ -39,8 +39,9 @@ function hideAllWindows() {
 function resetCaseSelect() {
     var temp = document.getElementById("selectStock").getElementsByClassName("selected");
     console.log(temp.length);
-    for(var i = 0; i < temp.length) {
+    for(var i = 0; i < temp.length; i++) {
         temp[i].classList.remove("selected");
+        i--;
     }
 }
 function printCurrentListOfItems() {
