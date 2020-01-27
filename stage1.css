@@ -1,0 +1,202 @@
+*, html, body {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+/* Keep dot points within box */
+ul {
+    list-style-position: inside;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px black solid;
+    margin-bottom: 5px;
+}
+
+.subHeader {
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px black solid;
+    margin: 0px auto 5px auto;
+}
+
+.smallHeader {
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px black solid;
+    margin: 0px auto 5px auto;
+}
+
+.colourSelect {
+    margin: 0px 5px 5px 0px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.numberSelect {
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+.backButton {
+    width: 10%;
+    font-size: 20px;
+}
+
+.selected {
+    border-color: red;
+}
+
+.spacing {
+    margin-top: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 90%;
+    padding: 5px;
+}
+
+.numberSelectInput {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+.notesInput {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 5px 15px;
+    border: 2px solid black;
+}
+
+section {
+    width: 100%;
+    height: auto;
+}
+.innerSection {
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Stage 1 Selectable Items */
+.item {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color: red;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    
+}
+
+@media screen and (min-width:1000px) {
+    .innerSection {
+        width: 1000px;
+    }
+    /* Stage 1 Selectable Items */
+    .item {
+        width:196px;
+        margin-right: 5px;
+    }
+    .item:nth-of-type(5n) {
+        margin-right: 0;
+    }
+    /* Stage 2 */
+    .categoryItem {
+        width: 245px;
+    }
+}
+
+@media screen and (max-width:999px) {
+    .innerSection {
+        width: 80%;
+    }
+    /* Stage 1 Selectable Items */
+    .item {
+        width: 49%;
+        margin-right: 2%;
+    }
+    .item:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    /* Stage 2 */
+    .categoryItem {
+        width: 49%;
+    }
+    .numberSelect {
+        padding: 5px 10px;
+    }
+}
+
+/* Stage 2 - Displaying the actual list*/
+.flexBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.categoryItem {
+    height: auto;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.categoryHeader {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.categoryBody {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+
+
+

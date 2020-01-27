@@ -1,13 +1,189 @@
-<!doctype <!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home | COMP332 Revision</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
-<body>
-    <h1>Hello there!</h1>
-</body>
+
+    <head>
+        <title>Stock | Home</title>
+        <script src="js/Stock.js"></script>
+        <script src="js/ItemHandling.js"></script>
+        <script src="js/StageTransition.js"></script>
+        <script src="js/Main.js"></script>.
+        <link rel="stylesheet" href="stage1.css">
+    </head>
+
+    <body>
+
+        <div id="selectCategory">
+            <section>
+                <div class="innerSection">
+        
+                    <div class="header">
+                        Dr Boom Stock List Generator
+                    </div>
+                </div>
+            </section>
+        
+            <section>
+                <div class="innerSection">
+                            
+                    <div class="subHeader">
+                        General
+                    </div>
+        
+                    <div class="clearfix">
+                        <div class="item">Phone Accessories</div>
+                        <div class="item">Car Holders</div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section>
+                <div class="innerSection">
+        
+                    <div class="subHeader">
+                        Apple Phones
+                    </div>
+        
+                    <div class="clearfix">
+                        
+                        <div class="item phone ">iPhone 5</div>
+                        <div class="item phone">iPhone 5S</div>
+                        <div class="item phone">iPhone 5C</div>
+                        <div class="item phone">iPhone 6</div>
+                        <div class="item phone">iPhone 6S</div>
+                        <div class="item phone">iPhone 6+</div>
+                        <div class="item phone">iPhone 6S+</div>
+                        <div class="item phone">iPhone 7</div>
+                        <div class="item phone">iPhone 7+</div>
+                        <div class="item phone">iPhone 8</div>
+                        <div class="item phone">iPhone 8+</div>
+                        <div class="item phone">iPhone X</div>
+                        <div class="item phone">iPhone XS</div>
+                        <div class="item phone">iPhone XR</div>
+                        <div class="item phone">iPhone XS Max</div>
+                        <div class="item phone">iPhone 11</div>
+                        <div class="item phone">iPhone 11 Pro</div>
+                        <div class="item phone">iPhone 11 Pro Max</div>
+    
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="innerSection">
+        
+                    <div class="subHeader">
+                        Samsung Phones
+                    </div>
+    
+                    <div class="clearfix">
+    
+                        <div class="item phone">Galaxy S5</div>
+                        <div class="item phone">Galaxy S6</div>
+                        <div class="item phone">Galaxy S6 Edge</div>
+                        <div class="item phone">Galaxy S6 Edge+</div>
+                        <div class="item phone">Galaxy S7</div>
+                        <div class="item phone">Galaxy S7 Edge</div>
+                        <div class="item phone">Galaxy S8</div>
+                        <div class="item phone">Galaxy S8+</div>
+                        <div class="item phone">Galaxy S9</div>
+                        <div class="item phone">Galaxy S9+</div>
+                        <div class="item phone">Galaxy S10</div>
+                        <div class="item phone">Galaxy S10+</div>
+                        <div class="item phone">Galaxy S10e</div>
+                        <div class="item phone">Galaxy S10 5G</div>
+                        <div class="item phone">Galaxy Note 8</div>
+                        <div class="item phone">Galaxy Note 9</div>
+                        <div class="item phone">Galaxy Note 10</div>
+                        <div class="item phone">Galaxy Note 10+</div>
+    
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section>
+                <div class="innerSection">
+                    
+                    <div class="subHeader" style="background-color:green;">
+                        Select this button to add a case for a phone not listed.
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <div id="viewList" class="clearfix">
+
+            <section>
+                <div class="innerSection">
+        
+                    <!-- <div class="header">
+                        Dr Boom Stock List Generator
+                    </div> -->
+                    
+                </div>
+            </section>
+
+            <section>
+                <div class="innerSection">
+
+                    <div class="subHeader">
+                        Current List
+                    </div>
+
+                </div>
+            </section> 
+
+            <section>
+                <div class="innerSection flexBox" id="currentList">
+                </div>
+            </section>
+
+        </div>
+
+        <div id="selectStock">
+
+            <section>
+                <div class="innerSection">
+
+                    
+        
+                    <div class="header flexBox">
+                        <input class="backButton" type="button" value="&larr;">
+                        <div style="
+                            width: 90%;
+                            text-align: center;
+                        ">Dr Boom Stock List Generator</div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section>
+                <div class="innerSection">
+
+                    <div class="subHeader">
+                        Select a case
+                    </div>
+
+                </div>
+            </section> 
+
+            <section>
+                <div class="innerSection">
+
+                    <div class="flexBox" id="selectCase">
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+    </body>
+
 </html>
