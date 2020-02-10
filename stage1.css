@@ -1,4 +1,5 @@
 *, html, body {
+    font-size: 20px;
     padding: 0px;
     margin: 0px;
     -webkit-box-sizing: border-box;
@@ -18,7 +19,6 @@ ul {
     width: 100%;
     height: auto;
     padding: 10px;
-    font-size: 20px;
     text-align: center;
     border: 1px black solid;
     margin-bottom: 5px;
@@ -28,7 +28,6 @@ ul {
     height: auto;
     width: 80%;
     padding: 10px;
-    font-size: 20px;
     text-align: center;
     border: 1px black solid;
     margin: 0px auto 5px auto;
@@ -38,7 +37,6 @@ ul {
     height: auto;
     width: 80%;
     padding: 10px;
-    font-size: 17px;
     text-align: center;
     border: 1px black solid;
     margin: 0px auto 5px auto;
@@ -110,7 +108,6 @@ section {
 /* Stage 1 Selectable Items */
 .item {
     float: left;
-    font-size: 20px;
     text-align: center;
     padding: 40px 0px;
     background-color: red;
@@ -145,12 +142,17 @@ section {
 }
 
 @media screen and (max-width:999px) {
+    *, html, body {
+        font-size: 30px;
+    }
+    .smallHeader {
+        font-size: 20px;
+    }
     .innerSection {
         width: 95%;
     }
     /* Stage 1 Selectable Items */
     .item {
-        font-size: 30px;
         width: 49%;
         margin-right: 2%;
     }
