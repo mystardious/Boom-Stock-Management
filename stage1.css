@@ -146,7 +146,7 @@ section {
 
 @media screen and (max-width:999px) {
     .innerSection {
-        width: 80%;
+        width: 95%;
     }
     /* Stage 1 Selectable Items */
     .item {
