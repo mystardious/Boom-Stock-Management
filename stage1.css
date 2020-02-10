@@ -56,7 +56,6 @@ ul {
 
 .backButton {
     width: 10%;
-    font-size: 20px;
 }
 
 .selected {
@@ -145,9 +144,6 @@ section {
     *, html, body {
         font-size: 30px;
     }
-    .smallHeader {
-        font-size: 20px;
-    }
     .innerSection {
         width: 95%;
     }
@@ -190,7 +186,6 @@ section {
     width: 100%;
     height: auto;
     padding: 20px 0px;
-    font-size: 20px;
     text-align: center;
     border-bottom: 2px solid black;
 }
