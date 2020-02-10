@@ -112,7 +112,7 @@ section {
     float: left;
     font-size: 20px;
     text-align: center;
-    padding: 20px 0px;
+    padding: 40px 0px;
     background-color: red;
     border: 1px solid black;
     margin-bottom: 5px;
@@ -150,6 +150,7 @@ section {
     }
     /* Stage 1 Selectable Items */
     .item {
+        font-size: 30px;
         width: 49%;
         margin-right: 2%;
     }
